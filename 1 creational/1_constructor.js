@@ -6,7 +6,7 @@
 // Server.prototype.getUrl = function() {
 //   return `https://${this.ip}:80`
 // }
-
+//конструктор, тут и так все понятно
 class Server {
   constructor(name, ip) {
     this.name = name
@@ -34,4 +34,3 @@ console.log(aws.getUrl())
 // console.log(typeof new Array(),5)
 // console.log(typeof new Object(),6)
 // console.log(typeof [1,2,3] == 'object','yoho')
-
