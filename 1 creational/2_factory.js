@@ -23,6 +23,8 @@ class PremiumMembership {
   }
 }
 
+console.log('hello world')
+
 class MemberFactory {
   static list = {
     simple: SimpleMembership,
